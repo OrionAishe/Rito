@@ -6,7 +6,7 @@ button.onclick= () => {
 let result = altura.value/1.54;
 result = Math.round(result * 100) / 100
 if(result > 0){
-    resultado.textContent = result;
+    resultado.textContent = `Você tem ${result} Ritos de altura!;
 }
 else{
     resultado.textContent = `${altura.value} não é um Número`;
