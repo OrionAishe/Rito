@@ -1,0 +1,30 @@
+body{
+    margin: 0 0 0 0;
+}
+.main{
+    margin: 0;
+    background-color: rgb(rgb(39, 39, 39));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    font-size: 1.2vw;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+#result{
+    display: none;
+}
+
+@media (min-width:700px){
+    .div{
+        font-size: 1vw;
+    }
+}
