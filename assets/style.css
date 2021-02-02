@@ -21,6 +21,10 @@ body{
     color: white;
 }
 
+.altura{
+    width:20vw;
+}
+
 footer{
     background-color: black;
     color: white;
